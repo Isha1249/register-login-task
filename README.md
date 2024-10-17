@@ -11,9 +11,9 @@ Endpoint: /api/register
 Method: POST
 Description: Registers a new user with email, username, and password.
 Request Body:{
-  "username": "JohnDoe",
-  "email": "johndoe@example.com",
-  "password": "password123"
+  "username": "Isha Jain",
+  "email": "ishajain@gmail.com",
+  "password": "Test@123"
 }
 Response: On success, it returns a message indicating successful registration and the user data.
 
@@ -23,8 +23,8 @@ Method: POST
 Description: Authenticates a user and returns a JWT token and refresh token.
 Request Body:
 {
-  "email": "johndoe@example.com",
-  "password": "password123"
+  "email": "ishajain@gmail.com",
+  "password": "Test@123"
 }
 Response: On success, it returns a message with the JWT token and user data.
 
